@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
 
             <div className="flex space-x-6">
-              <a href="https://github.com/Nitinverma9784" className="text-slate-600 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-400">
+              <a href="https://github.com/purvaSGcodes" className="text-slate-600 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-400">
                 GitHub
               </a>
               <a onClick={(event) => showComingSoonToast(event)} className="cursor-pointer text-slate-600 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-400">
@@ -55,25 +55,17 @@ export default function Footer() {
                   </DialogHeader>
 
                   <div className="flex flex-col space-y-4 mt-3">
-                    <a href="mailto:nitinverma9784@gmail.com" className="flex items-center space-x-2 hover:text-purple-600 transition">
+                    <a href="mailto:purvawarkad@gmail.com" className="flex items-center space-x-2 hover:text-purple-600 transition">
                       <Mail className="h-5 w-5" />
-                      <span>Email: nitinverma9784@gmail.com</span>
+                      <span>Email: purvawarkad@gmail.com</span>
                     </a>
-                    <a href="https://github.com/Nitinverma9784" className="flex items-center space-x-2 hover:text-purple-600 transition">
+                    <a href="https://github.com/purvaSGcodes" className="flex items-center space-x-2 hover:text-purple-600 transition">
                       <Github className="h-5 w-5" />
                       <span>GitHub</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/nitin-verma-558ba5276/" className="flex items-center space-x-2 hover:text-purple-600 transition">
+                    <a href="https://www.linkedin.com/in/purva-warkad-1a9240330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="flex items-center space-x-2 hover:text-purple-600 transition">
                       <Linkedin className="h-5 w-5" />
                       <span>LinkedIn</span>
-                    </a>
-                    <a href="https://x.com/ImKakashi106" className="flex items-center space-x-2 hover:text-purple-600 transition">
-                      <Twitter className="h-5 w-5" />
-                      <span>Twitter</span>
-                    </a>
-                    <a href="https://www.instagram.com/nitinverma9401/" className="flex items-center space-x-2 hover:text-purple-600 transition">
-                      <Instagram className="h-5 w-5" />
-                      <span>Instagram</span>
                     </a>
                   </div>
                 </DialogContent>
